@@ -1,0 +1,9 @@
+# Reflection
+
+Setting up Python, Django, and Git for this assignment had several challenges. One of the first challenges was ensuring that Python and Django were downloaded and installed correctly and, most importantly, matched the required versions. At first, I thought it was sufficient to download or install everything from the internet and that it would automatically work in VS Code. However, once I ran the command `python --version` to verify if it was working, it showed errors. So I went online and learned that I must download and set everything up in a virtual environment to have everything run properly.
+
+Another concern was running the command `.venv/Scripts/activate`. I could not get it to work, and there were errors. It was, of course, frustrating, but it led me to continue searching online with different approaches and reviewing others who had encountered similar issues. After watching several examples, I found clear, step-by-step guidance with explanations and was finally able to activate my environment to continue with the assignment.
+
+Lastly, connecting Git to GitHub was new to me. We set up accounts in college for compliance with the assignment but did not receive any instruction on using Git to create projects. In this subject, I learned how to initialize the remote origin and successfully stage, commit, and push files to GitHub before the project was completed.
+
+What I take away from this assignment is the importance of learning how to troubleshoot by carefully reading error messages, following the steps outlined in setups, and checking configurations. Overall, I gained experience in becoming more familiar with the steps of setting up a Django project and using Git.

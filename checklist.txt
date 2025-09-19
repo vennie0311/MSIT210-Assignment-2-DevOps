@@ -1,0 +1,32 @@
+# Environment Checklist
+
+1. Python Version
+   - Command: python --version
+   - Output: Python 3.13.7
+   - Status: Working
+
+2. Virtual Environment
+   - Command: python -m venv .venv
+   - Command to Activate: .\venv\Scripts\activate
+   - Status: Activated successfully
+
+3. Django Version
+   - Command: python -m django --version
+   - Output: 5.2.6
+   - Status: Installed and verified
+
+4. Runserver Test
+   - Command: python manage.py runserver
+   - Result: Development server starts at http://127.0.0.1:8000/
+   - Status: Running without errors
+
+5. Git Remote Setup
+   - Command:
+       git init - repository initialized
+       git add .             
+       git commit -m "Initial commit"
+       git remote add origin https://github.com/vennie0311/MSIT210-Assignment-1-DevOps.git
+       git push -u origin main
+   - Check: git remote -v
+       Output: origin https://github.com/vennie0311/MSIT210-Assignment-1-DevOps.git (fetch/push)
+   - Status: Connected to GitHub
